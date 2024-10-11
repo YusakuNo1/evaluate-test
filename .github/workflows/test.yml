@@ -31,7 +31,7 @@ jobs:
             }
           evaluators: |
             {
-              "bleu": "BleuScoreEvalutor",
+              "bleu": "BleuScoreEvaluator",
               "content_safety": "ContentSafetyEvaluator"
             }
           azure_ai_project: |
